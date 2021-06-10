@@ -1,0 +1,42 @@
+/* comentário em CSS é Ctrl + ; */
+
+body{
+    /* Centralizar textos */
+    text-align: center;
+    /* Imagem de fundo */
+    background-image: url(https://tinyurl.com/4zw9567w);
+    /* Remover modo de repetição da imagem */
+    background-repeat: no-repeat;
+    /* Posicionamento */
+    background-position:center center;
+    /* Altura do body */
+    height: 100vh; 
+    /* tamanho da imagem */
+    background-size: 500px;
+    /* fixar a imagem de fundo */
+    background-attachment: fixed;
+    /* Cor de fundo */
+    background-color: #000000;
+}
+
+/* Personalizar o título */
+h1 {
+    color: #ff0000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+/* personalizando subtítulos de cores diferentes em tags iguais; lá no html fica:  
+<h2 id="green">Verde</h2> e <h2 id="blue">Azul</h2> */
+#green{
+    color: #00ff00;
+}
+
+#blue{
+    color:#0000ff;
+    font-weight: lighter;
+}
+
+.colors {
+    color:darkgreen;
+}
